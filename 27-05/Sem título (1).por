@@ -24,7 +24,7 @@ programa
 		g.definir_cor(g.COR_BRANCO)
 		g.limpar()
 		g.definir_cor(g.COR_PRETO)
-		g.desenhar_texto(20, 50, "Movimente a bolinha com W A S D")
+		g.desenhar_texto(20, 50, "Movimente-se a bolinha com W A S D")
 		g.desenhar_elipse(bolinha_x, bolinha_y, 20, 20, verdadeiro)
 		g.renderizar()
 	}
@@ -39,3 +39,15 @@ programa
 		}
 	}	
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 507; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
